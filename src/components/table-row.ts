@@ -50,12 +50,6 @@ export const generateTableRow = ({
         },
     })
     $actions.append($dropdown)
-    $tr.append(
-        $status,
-        $instanceName,
-        $address,
-        $hostName,
-        $actions
-    )
+    $tr.append($status, $instanceName, $address, $hostName, $actions)
     return $tr
 }
